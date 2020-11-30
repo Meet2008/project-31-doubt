@@ -14,7 +14,7 @@ class Divisions {
         Push();
         rectMode(CENTRE);
         fill("white");
-        for(var k = 0; k <=innerWidth; k = k + 80){
+        for(var k = 0; k <=width; k = k + 80){
           divisions.push(new Divisions(k, height-divisionHeight/2,10,divisionHeight));
         }
         rect(pos.x,pos.y,this.w,this.h);
